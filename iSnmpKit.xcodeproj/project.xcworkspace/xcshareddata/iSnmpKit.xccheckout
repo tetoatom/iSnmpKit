@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF0147B9-6930-4A52-9DC9-F7157C96C088</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iSnmpKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>503AB56C-7F51-4A5B-8DB2-AF48B2E4B878</key>
+		<string>https://github.com/tetoatom/iSnmpKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iSnmpKit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>503AB56C-7F51-4A5B-8DB2-AF48B2E4B878</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tetoatom/iSnmpKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>503AB56C-7F51-4A5B-8DB2-AF48B2E4B878</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>503AB56C-7F51-4A5B-8DB2-AF48B2E4B878</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iSnmpKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
