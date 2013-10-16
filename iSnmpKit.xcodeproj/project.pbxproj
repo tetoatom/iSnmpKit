@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5F0A8528180D9B1200CFF4AD /* libnetsnmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0A8527180D9B1200CFF4AD /* libnetsnmp.a */; };
+		5F0A852B180D9D3000CFF4AD /* iSKSnmpCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A852A180D9D3000CFF4AD /* iSKSnmpCore.m */; };
 		5FB7326D180D9A17001DDF9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB7326C180D9A17001DDF9D /* Foundation.framework */; };
 		5FB73272180D9A17001DDF9D /* iSnmpKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FB73271180D9A17001DDF9D /* iSnmpKit.h */; };
 		5FB73274180D9A17001DDF9D /* iSnmpKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB73273180D9A17001DDF9D /* iSnmpKit.m */; };
 		5FB7327B180D9A17001DDF9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB7327A180D9A17001DDF9D /* XCTest.framework */; };
 		5FB7327C180D9A17001DDF9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB7326C180D9A17001DDF9D /* Foundation.framework */; };
 		5FB7327E180D9A17001DDF9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB7327D180D9A17001DDF9D /* UIKit.framework */; };
-		5FB73281180D9A17001DDF9D /* libiSnmpKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB73269180D9A17001DDF9D /* libiSnmpKit.a */; };
+		5FB73281180D9A17001DDF9D /* iSnmpKit. in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB73269180D9A17001DDF9D /* iSnmpKit. */; };
 		5FB73287180D9A17001DDF9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB73285180D9A17001DDF9D /* InfoPlist.strings */; };
 		5FB73289180D9A17001DDF9D /* iSnmpKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB73288180D9A17001DDF9D /* iSnmpKitTests.m */; };
 /* End PBXBuildFile section */
@@ -218,7 +219,9 @@
 		5F0A8524180D9B1200CFF4AD /* varbind_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = varbind_api.h; sourceTree = "<group>"; };
 		5F0A8525180D9B1200CFF4AD /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		5F0A8527180D9B1200CFF4AD /* libnetsnmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnetsnmp.a; sourceTree = "<group>"; };
-		5FB73269180D9A17001DDF9D /* libiSnmpKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiSnmpKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0A8529180D9D3000CFF4AD /* iSKSnmpCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSKSnmpCore.h; sourceTree = "<group>"; };
+		5F0A852A180D9D3000CFF4AD /* iSKSnmpCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSKSnmpCore.m; sourceTree = "<group>"; };
+		5FB73269180D9A17001DDF9D /* iSnmpKit. */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = iSnmpKit.; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB7326C180D9A17001DDF9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FB73270180D9A17001DDF9D /* iSnmpKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSnmpKit-Prefix.pch"; sourceTree = "<group>"; };
 		5FB73271180D9A17001DDF9D /* iSnmpKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iSnmpKit.h; sourceTree = "<group>"; };
@@ -247,7 +250,7 @@
 			files = (
 				5FB7327B180D9A17001DDF9D /* XCTest.framework in Frameworks */,
 				5FB7327E180D9A17001DDF9D /* UIKit.framework in Frameworks */,
-				5FB73281180D9A17001DDF9D /* libiSnmpKit.a in Frameworks */,
+				5FB73281180D9A17001DDF9D /* iSnmpKit. in Frameworks */,
 				5FB7327C180D9A17001DDF9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +526,7 @@
 		5FB7326A180D9A17001DDF9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FB73269180D9A17001DDF9D /* libiSnmpKit.a */,
+				5FB73269180D9A17001DDF9D /* iSnmpKit. */,
 				5FB73279180D9A17001DDF9D /* iSnmpKitTests.xctest */,
 			);
 			name = Products;
@@ -542,9 +545,11 @@
 		5FB7326E180D9A17001DDF9D /* iSnmpKit */ = {
 			isa = PBXGroup;
 			children = (
+				5FB7326F180D9A17001DDF9D /* Supporting Files */,
 				5FB73271180D9A17001DDF9D /* iSnmpKit.h */,
 				5FB73273180D9A17001DDF9D /* iSnmpKit.m */,
-				5FB7326F180D9A17001DDF9D /* Supporting Files */,
+				5F0A8529180D9D3000CFF4AD /* iSKSnmpCore.h */,
+				5F0A852A180D9D3000CFF4AD /* iSKSnmpCore.m */,
 			);
 			path = iSnmpKit;
 			sourceTree = "<group>";
@@ -592,7 +597,7 @@
 			);
 			name = iSnmpKit;
 			productName = iSnmpKit;
-			productReference = 5FB73269180D9A17001DDF9D /* libiSnmpKit.a */;
+			productReference = 5FB73269180D9A17001DDF9D /* iSnmpKit. */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5FB73278180D9A17001DDF9D /* iSnmpKitTests */ = {
@@ -656,6 +661,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0A852B180D9D3000CFF4AD /* iSKSnmpCore.m in Sources */,
 				5FB73274180D9A17001DDF9D /* iSnmpKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -764,8 +770,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/iSnmpKit.dst;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iSnmpKit/iSnmpKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/ysak/Dropbox/Repos/github/iSnmpKit/net-snmp-for-iphone/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ysak/Dropbox/Repos/github/iSnmpKit/net-snmp-for-iphone/lib",
@@ -780,8 +793,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/iSnmpKit.dst;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iSnmpKit/iSnmpKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/ysak/Dropbox/Repos/github/iSnmpKit/net-snmp-for-iphone/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ysak/Dropbox/Repos/github/iSnmpKit/net-snmp-for-iphone/lib",
